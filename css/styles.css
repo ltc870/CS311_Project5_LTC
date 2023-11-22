@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+.madlib-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  /* background-color: #808080; */
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.img-container {
+  justify-self: end;
+  align-self: center;
+  width: 80%;
+}
+
+.cartoon-img {
+  width: 80%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item {
+  margin-top: .2em;
+  margin-bottom: .2em;
+}
+
+.form-button {
+  width: 70%;
+  margin: 2em auto 0;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: blue;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button {
+  margin-left: 2em;
+  border-radius: 0;
+  padding: .5em;
+  font-weight: bold;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+
+.reset-button:hover,
+.reset-button:focus {
+  background-color: blue;
+  color: white;
+}
